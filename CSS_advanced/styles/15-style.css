@@ -201,6 +201,10 @@
             --section-title-color: var(--color-black);
     }
 
+    * {
+        box-sizing: border-box;
+    }
+
     html {
         /* Animated auto scroll */
         scroll-behavior: smooth;
