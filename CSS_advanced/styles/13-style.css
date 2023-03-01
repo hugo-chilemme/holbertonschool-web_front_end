@@ -85,11 +85,18 @@
     }
 
     a[href]:visited {
+        /* Set font style to italic */
         font-style: var(--font-style-italic);
     }
 
     a[href]:hover {
+        /* Set text decoration to underline */
         text-decoration: var(--text-decoration-underline);
+    }
+
+    a[href]:active {
+        /* Set the background color */
+        background: var(--color-light-grey);
     }
 
     .visually-hidden {
