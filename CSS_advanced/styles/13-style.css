@@ -76,7 +76,7 @@
         font-weight: var(--font-weight-bold);
     }
 
-    a[href] {
+    a:link {
         /* Change the color of elements with this element */
         color: var(--text-color);
 
@@ -84,17 +84,17 @@
         text-decoration: none;
     }
 
-    a[href]:visited {
+    a:visited {
         /* Set font style to italic */
         font-style: var(--font-style-italic);
     }
 
-    a[href]:hover {
+    a:hover {
         /* Set text decoration to underline */
         text-decoration: var(--text-decoration-underline);
     }
 
-    a[href]:active {
+    a:active {
         /* Set the background color */
         background: var(--color-light-grey);
     }
