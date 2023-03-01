@@ -1,0 +1,50 @@
+
+    :root {
+        --color-primary: #d73953;
+        --color-black: #090909;
+        --color-white: #ffffff;
+        --color-light-grey: #f3f3f3;
+        --color-dark-grey: #353535;
+        --text-color: var(--color-black);
+        --font-family-base: "Halvetica Neue", "Helvetica", "Arial", "sans-serif";
+        --font-family-title: var(--font-family-base)
+    }
+
+    html {
+        /* Animated auto scroll */
+        scroll-behavior: smooth;
+    }
+
+    body {
+        /* Set default text color */
+        color: var(--text-color);
+        
+        /* Changing the font */
+        font-family: var(--font-family-base);
+    }
+
+    a {
+        /* Change the color of elements with this element */
+        color: var(--text-color);
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        /* Changing the font */
+        font-family: var(--font-family-title);
+    }
+
+    .visually-hidden {
+        /* Hide elements with this class */
+        display: none;
+    }
+
+    .card-category {
+        /* Change the color of elements with this class */
+        color: var(--color-primary)
+    }
+
+    .section-tagline {
+        /* Change the color of elements with this class */
+        color: var(--color-primary)
+    }
+
