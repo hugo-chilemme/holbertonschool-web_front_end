@@ -50,8 +50,8 @@
         /* Changing the font weight */
         font-weight: var(--font-weight-regular);
 
-        /* Changing minimum height */
-        min-height: var(--line-height-base);
+        /* Changing line height */
+        line-height: var(--line-height-base);
     }
 
     h1, h2, h3, h4, h5, h6 {
