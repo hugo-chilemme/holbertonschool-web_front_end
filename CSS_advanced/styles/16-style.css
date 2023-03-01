@@ -286,8 +286,8 @@
     }
 
     .container {
-        /* Set height of element */
-        height: 960px;
+        /* Set width of element */
+        width: 960px;
 
         /* distribute left and right margins */
         margin-left: auto;
