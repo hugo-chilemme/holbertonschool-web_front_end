@@ -204,7 +204,6 @@
     *, 
     *::before, 
     *::after {
-        /* Universal box sizing */
         box-sizing: border-box;
     }
 
@@ -284,6 +283,15 @@
 
         /* Set text transform  */
         text-transform: var(--section-tagline-transform);
+    }
+
+    .container {
+        /* Set height of element */
+        height: 960px;
+
+        /* distribute left and right margins */
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .section-title {
