@@ -84,17 +84,17 @@
         text-decoration: none;
     }
 
-    a:visited {
+    a:link:visited {
         /* Set font style to italic */
         font-style: var(--font-style-italic);
     }
 
-    a:hover {
+    a:link:hover {
         /* Set text decoration to underline */
         text-decoration: var(--text-decoration-underline);
     }
 
-    a:active {
+    a:link:active {
         /* Set the background color */
         background: var(--color-light-grey);
     }
