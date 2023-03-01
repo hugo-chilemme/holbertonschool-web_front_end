@@ -23,14 +23,14 @@
         font-family: var(--font-family-base);
     }
 
-    a {
-        /* Change the color of elements with this element */
-        color: var(--text-color);
-    }
-    
     h1, h2, h3, h4, h5, h6 {
         /* Changing the font */
         font-family: var(--font-family-title);
+    }
+    
+    a {
+        /* Change the color of elements with this element */
+        color: var(--text-color);
     }
 
     .visually-hidden {
