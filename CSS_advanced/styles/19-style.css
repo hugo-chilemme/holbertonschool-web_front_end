@@ -431,6 +431,6 @@
         color: var(--text-color);
     }
 
-    footer ul {
-        float: right;
+    .footer ul {
+        text-align: right;
     }
