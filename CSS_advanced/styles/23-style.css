@@ -442,6 +442,17 @@
         padding: 0.5rem;
     }
 
+    .footer-address {
+        color: var(--text-color);
+    }
+
+    .social-link {
+        display:block;
+    }
+
+    .social-link svg * {
+        color: var(--text-color);
+    }
 
     [data-section-theme="dark"] {
         --text-color: var(--color-white);
