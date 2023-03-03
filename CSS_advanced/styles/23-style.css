@@ -451,8 +451,11 @@
     }
 
     .social-link > svg {
+        fill: var(--text-color);
         color: var(--text-color);
     }
+
+    /* I found this file on the HugoCLI github */
 
     [data-section-theme="dark"] {
         --text-color: var(--color-white);
