@@ -298,7 +298,7 @@
         /* Set the background color */
         background: var(--color-light-grey);
     }
-    
+
     .button{
         display: var(--button-display);
         padding: var(--button-padding);
@@ -487,6 +487,7 @@
         --text-color: var(--color-white);
         --section-title-color: var(--color-white);
         background-color: var(--color-black);
+        --button-color: var(--color-white);
     }
 
     .card-services .card-title {
