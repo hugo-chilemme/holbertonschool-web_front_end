@@ -5,20 +5,14 @@ body {
     font-size: 14px;
     font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 .container {
     max-width: 1000px;
-    margin: 30px 0;
-    display: flex;
-    justify-content: center;
-}
-
-.container .filters {
-    height: 70px;
-    width: 100%;
-    border: 1px solid #DDDDDD;
-    border-radius: 4px;    
-    display:flex;
+    margin: 30px auto;
 }
 
 .container .filters button {

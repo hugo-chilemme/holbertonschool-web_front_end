@@ -1,0 +1,64 @@
+.filters {
+    height: 70px;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;    
+    display:flex;
+}
+
+.locations, .amenities {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.locations:hover .popover, .amenities:hover .popover {
+    display: block;
+}
+
+.locations {
+    border-right: 1px solid #DDDDDD;
+}
+
+.filters h3 {
+    font-weight: 600;
+}
+.filters h4 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.filters h3, .filters h4 {
+    padding:0 40px;
+}
+
+.popover {
+    background: #FAFAFA;
+    width: 100%;
+    display: none;
+    top: 100%;
+    border: 1px solid #DDDDDD;
+    position: absolute;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.popover ul, .popover li {
+    list-style: none;
+}
+
+.popover ul {
+    margin-bottom: 25px;
+}
+
+.popover ul:last-child {
+    margin-bottom: 0;
+}
+
+.popover h2 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
