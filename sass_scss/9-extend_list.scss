@@ -4,13 +4,14 @@ $info-warning-color: #FF0000 ;
 
 .info {
     font-size: $info-font-size;
-
-    &.success {
-        color: $info-success-color;
-    }
-
-    &.warning {
-        color: $info-warning-color;
-    }
 }
+
+.success {
+    color: $info-success-color;
+}
+
+.warning {
+    color: $info-warning-color;
+}
+
 
