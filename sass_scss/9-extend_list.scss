@@ -1,17 +1,17 @@
 $info-font-size: 12px;
 $info-success-color: #00FF00;
-$info-warning-color: #FF0000 ;
+$info-warning-color: #FF0000;
 
-.info, .success, .warning {
+.info {
     font-size: $info-font-size;
 }
 
 .success {
+    @extend .info;
     color: $info-success-color;
 }
 
 .warning {
+    @extend .info;
     color: $info-warning-color;
 }
-
-
