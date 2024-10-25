@@ -1,11 +1,7 @@
 @import '11-photos';
 
-$list-names: julien, john, sam, damian;
-
-.photo {
-    @each $name in $list-names {
-        &[data-name="#{$name}"] {
-            background: image-url("photos/#{$name}.jpg") no-repeat;
-        }
+@each $name in $list-names {
+    .photo-#{$name} {
+        background: image-url("photos/#{$name}.jpg") no-repeat;
     }
 }
