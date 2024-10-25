@@ -1,8 +1,12 @@
+
+$body-space: 0;
+$paragraph-space: 10px;
+
 body {
-    margin: 0;
-    padding: 0;
+    margin: $body-space;
+    padding: $body-space;
 
     p {
-        margin: 10px;
+        margin: $paragraph-space;
     }
 }
