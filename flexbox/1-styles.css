@@ -501,9 +501,26 @@
   }
 
 
-  section#services { }
-  section#works { }
-  section#testimonials { }
-  section#contact { }
-  section#latest-news { }
-  section#about-us { }
+  section#services {
+	display: flex;
+  }
+
+  section#work {
+	display: flex;
+  }
+
+  section#testimonials {
+	display: flex;
+  }
+
+  section#contact {
+	display: flex;
+  }
+
+  section#latest-news {
+	display: flex;
+  }
+
+  section#about-us {
+	display: flex;
+  }
