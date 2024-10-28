@@ -501,26 +501,26 @@
   }
 
 
-  section#services {
+  .section-services {
 	display: flex;
   }
 
-  section#work {
+  .section-work {
 	display: flex;
   }
 
-  section#testimonials {
+  .section-testimonials {
 	display: flex;
   }
 
-  section#contact {
+  .section-contact {
 	display: flex;
   }
 
-  section#latest-news {
+  .section-latest-news {
 	display: flex;
   }
 
-  section#about-us {
+  .section-about-us {
 	display: flex;
   }
