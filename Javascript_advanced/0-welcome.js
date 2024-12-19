@@ -17,9 +17,3 @@ function welcome(firstName, lastName)
 
     displayFullName();
 }
-
-
-function displayFullName()
-{
-    alert(`Welcome ${welcome}`)
-}
