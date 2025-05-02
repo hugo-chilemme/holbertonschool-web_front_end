@@ -1,0 +1,54 @@
+{
+  "posts": [
+    {
+      "title": "jhjghj",
+      "author": "aa",
+      "id": "8"
+    },
+    {
+      "id": "35b6",
+      "title": "dsfqdsf",
+      "author": "Machin"
+    },
+    {
+      "id": "21c0",
+      "title": "Machin",
+      "author": "MAchin"
+    },
+    {
+      "id": "0af0",
+      "title": "Machin",
+      "author": "MAchin"
+    },
+    {
+      "id": "67ca",
+      "title": "Machin",
+      "author": "MAchin"
+    },
+    {
+      "id": "cdc9",
+      "title": "Machin",
+      "author": "MAchin"
+    },
+    {
+      "id": "b93c",
+      "title": "Machin",
+      "author": "MAchin"
+    },
+    {
+      "id": "9a4d",
+      "title": "clear",
+      "author": "clear"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
